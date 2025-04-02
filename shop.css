@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 70px; /* Offset for fixed navbar */
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stationery-banner {
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.stationery-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    /* border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover; */
+}
+
+.card-body {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.cart-count {
+    background-color: red;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}
+
+footer {
+    margin-top: 20px;
+}
